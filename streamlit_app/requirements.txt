@@ -1,3 +1,7 @@
 streamlit>=1.40
 pandas>=2.0
+matplotlib>=3.7
+bokeh>=3.9
+rdkit>=2023.9
+pyarrow>=15.0
 DEL-iver @ git+https://github.com/SztainLab/DEL-iver.git@main
