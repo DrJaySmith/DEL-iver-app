@@ -28,9 +28,9 @@ repo/
 # Local validation outputs (kept off the public repo)
 reference_output/
 
-# Example CSVs (not shared publicly)
-example.csv
-example_1k.csv
+# Top-level example CSVs (the deployable copy lives in streamlit_app/data/)
+/example.csv
+/example_1k.csv
 
 # Internal handoff doc
 HANDOFF.md

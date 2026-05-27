@@ -770,7 +770,7 @@ with tab_run:
 
     if upload is None:
         _grey_info("Upload a CSV to get started, or try the example below.")
-        example_path = Path(__file__).parent.parent / "repo" / "scripts" / "data" / "example.csv"
+        example_path = Path(__file__).parent / "data" / "example.csv"
         if example_path.exists():
             with example_path.open("rb") as fh:
                 st.download_button(
