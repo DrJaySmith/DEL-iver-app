@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local dev artifacts
+streamlit_app/hover_test.html
+streamlit_app/preview.html
+streamlit_app/safe_test.html
+streamlit_app/test_out.log
+streamlit_app/*.log
+
+# Upstream clone (installed via requirements.txt from GitHub)
+repo/
+
+# Local validation outputs (kept off the public repo)
+reference_output/
+
+# Example CSVs (not shared publicly)
+example.csv
+example_1k.csv
+
+# Internal handoff doc
+HANDOFF.md
+
+# Secrets
+.env
+.env.local
+*.key
